@@ -1,0 +1,22 @@
+.text-box{
+    margin: 200px;
+    border-style: solid;
+    position: relative;
+    display: inline-block;
+    box-shadow: 
+        10px -10px;
+    transition: top 1s, left 1s;
+    top: 0;
+    left: 0;
+}
+.text-box:hover{
+    top: -10px;
+    left: 10px;
+    box-shadow: 
+    0 0;
+}
+.text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 3rem;
+}
